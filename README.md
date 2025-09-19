@@ -33,9 +33,9 @@ python3 sharedctl/sharedctl.py fetch <path-in-repo> --to <destination> [--ref <b
 
 - Fetch a single file
 ```bash
-python3 sharedctl/sharedctl.py fetch configs/app.yaml --to ./configs --repo https://github.com/andreyhakobyan/shared-repo.git
+python3 sharedctl/sharedctl.py fetch .devcontainer/setup.sh --to . --repo https://github.com/andreyhakobyan/shared-repo.git
 ```
-**Result:** `./configs/app.yaml`
+**Result:** `./.devcontainer/setup.sh`
 
 - Fetch a folder with folder itself (default)
 ```bash
